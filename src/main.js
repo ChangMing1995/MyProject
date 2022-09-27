@@ -8,7 +8,6 @@ import './assets/style/reset.less';
 
 // 字体图标
 import '@/assets/iconfont/iconfont.css';
-import '@/assets/iconfont/iconfont.js';
 
 /**替换组件库中的时间插件 */
 import * as dayjs from 'dayjs';

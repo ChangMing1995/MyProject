@@ -1,7 +1,9 @@
 <template>
   <div class="Login">
     <div class="login-containor">
-      <h2>Dreamworks</h2>
+      <h2 class="iconfont icon-location">
+        Dreamworks
+      </h2>
     </div>
   </div>
 </template>
