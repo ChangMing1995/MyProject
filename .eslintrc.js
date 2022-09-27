@@ -39,6 +39,17 @@ module.exports = {
     'global-require': 0, // 强制在模块顶部调用 require()
     'import/no-dynamic-require': 0,
     'linebreak-style': 0, // 	强制使用一致的换行风格
+    'vue/max-attributes-per-line': [
+      'error',
+      {
+        singleline: {
+          max: 180,
+        },
+        multiline: {
+          max: 5,
+        },
+      },
+    ],
     'max-len': 0, // 强制一行的最大长度
     'no-restricted-syntax': 0, // 禁用特定的语法
     eqeqeq: 0, // 要求使用 === 和 !==

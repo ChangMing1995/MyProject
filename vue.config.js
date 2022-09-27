@@ -16,5 +16,13 @@ module.exports = {
         '~': path.resolve('public'),
       },
     },
+    module: {
+      rules: [
+        {
+          test: /\.vuetxt$/i,
+          loader: 'raw-loader',
+        },
+      ],
+    },
   },
 };
