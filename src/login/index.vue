@@ -23,7 +23,7 @@ export default {
   position: relative;
   width: 100%;
   height: 100%;
-  background: url('../assets/img/夕阳.jpeg') no-repeat;
+  background: url('../assets/img/2.jpeg') no-repeat;
   background-size: 100% 100%;
   .login-containor {
     position: absolute;
