@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
   publicPath: '/',
+  outputDir: 'dist',
   devServer: {
     disableHostCheck: true,
     port: 80,
