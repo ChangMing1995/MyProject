@@ -1,6 +1,6 @@
 <template>
-  <div class="name">
-    头部
+  <div class="Header">
+    <span>Have A Dream To Become A Great</span>
   </div>
 </template>
 
@@ -16,4 +16,15 @@ export default {
   methods: {},
 };
 </script>
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+.Header {
+  span {
+    font-size: 20px;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    color: transparent;
+    // 转变为行内块元素 文字渐变才会生效
+    display: inline-block;
+  }
+}
+</style>

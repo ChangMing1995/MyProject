@@ -1,17 +1,14 @@
 <template>
   <div class="Login">
     <div class="login-containor">
-      <h1 class="iconfont icon-location systemTitle">
-        Dreamworks
-      </h1>
       <div class="loginWrap">
         <a-input v-model="user.name" allow-clear placeholder="账号">
-          <a-icon slot="prefix" type="user" />
+          <a-icon slot="prefix" type="user" class="loginIcon" />
         </a-input>
         <a-input ref="userNameInput" v-model="user.password" allow-clear type="password" placeholder="密码">
-          <a-icon slot="prefix" type="lock" />
+          <a-icon slot="prefix" type="lock" class="loginIcon" />
         </a-input>
-        <router-link to="/Layout">
+        <router-link to="/Demo1">
           <a-button type="link" class="loginButton">
             登陆
           </a-button>
@@ -48,7 +45,7 @@ export default {
   .login-containor {
     position: absolute;
     right: 5%;
-    top: 15%;
+    top: 25%;
     width: 400px;
     height: 500px;
     padding: 50px 56px 0;
@@ -81,6 +78,9 @@ export default {
         &:hover {
           box-shadow: 0px 0px 0px 1px #18a0fb;
         }
+      }
+      .loginIcon {
+        color: #fff;
       }
     }
   }

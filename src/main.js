@@ -1,10 +1,11 @@
 import Vue from 'vue';
 import App from './App.vue';
-import router from './router';
+import router from '@/permission.js';
 import store from './store';
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
 import './assets/style/reset.less';
+import './assets/style/index.less';
 
 // 字体图标
 import '@/assets/iconfont/iconfont.css';
